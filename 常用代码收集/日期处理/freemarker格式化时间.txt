@@ -1,0 +1,1 @@
+value='${(qo.beginDate?string("yyyy-MM-dd"))!""
