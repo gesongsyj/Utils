@@ -27,6 +27,12 @@
   		<if test="userType>-1">
   			and userType=#{userType}
   		</if>
+		<if test="states!=null">
+  			and state in
+  			<foreach collection="states" item="s" open="(" close=")" separator=",">
+  				#{s}
+  			</foreach>
+  		</if>
   	</where>
   </sql>
   <select id="queryForCount" resultType="int">
