@@ -37,6 +37,8 @@
   	select <include refid="base_column"/> 
   	from tableName 
   	<include refid="base_where"/>
-  	limit #{start},#{pageSize}
+	<if test="pageSize>0">
+  		limit #{start},#{pageSize}
+  	</if>
   </select>
 </mapper>
