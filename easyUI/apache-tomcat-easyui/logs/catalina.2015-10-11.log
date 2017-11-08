@@ -1,0 +1,142 @@
+十月 11, 2015 8:23:07 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;;D:\software\maven\apache-maven-3.3.3\bin;;.
+十月 11, 2015 8:23:07 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 8:23:07 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 8:23:07 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 650 ms
+十月 11, 2015 8:23:07 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 11, 2015 8:23:07 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+十月 11, 2015 8:23:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\docs
+十月 11, 2015 8:23:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\easyui-docs
+十月 11, 2015 8:23:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\examples
+十月 11, 2015 8:23:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\host-manager
+十月 11, 2015 8:23:09 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\manager
+十月 11, 2015 8:23:09 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\ROOT
+十月 11, 2015 8:23:09 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 8:23:09 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 8:23:09 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1731 ms
+十月 11, 2015 8:23:46 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 8:23:46 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 8:23:46 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+十月 11, 2015 8:23:46 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 8:23:46 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 8:23:46 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 8:23:46 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 10:36:06 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;;D:\software\maven\apache-maven-3.3.3\bin;;.
+十月 11, 2015 10:36:06 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 10:36:06 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 10:36:07 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 704 ms
+十月 11, 2015 10:36:07 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 11, 2015 10:36:07 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+十月 11, 2015 10:36:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\docs
+十月 11, 2015 10:36:07 上午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [138] milliseconds.
+十月 11, 2015 10:36:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\easyui-docs
+十月 11, 2015 10:36:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\examples
+十月 11, 2015 10:36:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\host-manager
+十月 11, 2015 10:36:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\manager
+十月 11, 2015 10:36:09 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\ROOT
+十月 11, 2015 10:36:09 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 10:36:09 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 10:36:09 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2110 ms
+十月 11, 2015 10:47:53 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 9:58:58 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;;D:\software\maven\apache-maven-3.3.3\bin;;.
+十月 11, 2015 9:58:59 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 9:58:59 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 9:58:59 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 609 ms
+十月 11, 2015 9:58:59 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 11, 2015 9:58:59 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+十月 11, 2015 9:58:59 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\docs
+十月 11, 2015 9:58:59 上午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [119] milliseconds.
+十月 11, 2015 9:58:59 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\easyui-docs
+十月 11, 2015 9:59:00 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\examples
+十月 11, 2015 9:59:00 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\host-manager
+十月 11, 2015 9:59:00 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\manager
+十月 11, 2015 9:59:00 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\ROOT
+十月 11, 2015 9:59:00 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 9:59:00 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 9:59:00 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1650 ms
+十月 11, 2015 9:59:12 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;;D:\software\maven\apache-maven-3.3.3\bin;;.
+十月 11, 2015 9:59:13 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 9:59:13 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 9:59:13 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 688 ms
+十月 11, 2015 9:59:13 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十月 11, 2015 9:59:13 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+十月 11, 2015 9:59:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\docs
+十月 11, 2015 9:59:13 上午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [102] milliseconds.
+十月 11, 2015 9:59:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\easyui-docs
+十月 11, 2015 9:59:13 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\examples
+十月 11, 2015 9:59:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\host-manager
+十月 11, 2015 9:59:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\manager
+十月 11, 2015 9:59:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\EasyUI\day01\资料\apache-tomcat-easyui\webapps\ROOT
+十月 11, 2015 9:59:14 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+十月 11, 2015 9:59:14 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+十月 11, 2015 9:59:14 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1661 ms

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.syj.java.base.mapper.SystemDictionaryMapper" >
+  <resultMap id="BaseResultMap" type="com.syj.java.base.domain.SystemDictionary" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="sn" property="sn" jdbcType="VARCHAR" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <sql id="base_column">
+    id, sn, title
+  </sql>
+  <sql id="base_where">
+  	<where>
+  		<if test="beginDate!=null">
+  			and loginTime &gt; #{beginDate}
+  		</if>
+  		<if test="endDate!=null">
+  			and loginTime &lt; #{endDate}
+  		</if>
+  		<if test="state>-1">
+  			and state=#{state}
+  		</if>
+  		<if test="userName!=null">
+  			and userName=#{userName}
+  		</if>
+  		<if test="userType>-1">
+  			and userType=#{userType}
+  		</if>
+  	</where>
+  </sql>
+  <select id="queryForCount" resultType="int">
+  	select count(id) from tableName 
+  	<include refid="base_where"></include>
+  </select>
+  <select id="query" resultMap="BaseResultMap">
+  	select <include refid="base_column"/> 
+  	from tableName 
+  	<include refid="base_where"/>
+  	limit #{start},#{pageSize}
+  </select>
+</mapper>

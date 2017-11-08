@@ -1,0 +1,1 @@
+Struts2和Hibernate里都有javassist这个jar,集成三个框架时只需要保留一个就行

@@ -1,0 +1,30 @@
+九月 26, 2017 8:59:03 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: F:\Program Files (x86)\JDK1.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;F:\Program Files\TortoiseSVN\bin;F:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;F:\Program Files (x86)\JDK1.7\bin;F:\OpenSources\apache-maven-3.2.5\bin;.
+九月 26, 2017 8:59:04 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+九月 26, 2017 8:59:04 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+九月 26, 2017 8:59:04 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 2164 ms
+九月 26, 2017 8:59:04 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 26, 2017 8:59:04 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+九月 26, 2017 8:59:04 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\BaiduNetdiskDownload\05-18_EasyUI\EasyUI\资料\apache-tomcat-easyui\webapps\docs
+九月 26, 2017 8:59:06 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\BaiduNetdiskDownload\05-18_EasyUI\EasyUI\资料\apache-tomcat-easyui\webapps\easyui-docs
+九月 26, 2017 8:59:07 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\BaiduNetdiskDownload\05-18_EasyUI\EasyUI\资料\apache-tomcat-easyui\webapps\examples
+九月 26, 2017 8:59:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\BaiduNetdiskDownload\05-18_EasyUI\EasyUI\资料\apache-tomcat-easyui\webapps\host-manager
+九月 26, 2017 8:59:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\BaiduNetdiskDownload\05-18_EasyUI\EasyUI\资料\apache-tomcat-easyui\webapps\manager
+九月 26, 2017 8:59:08 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\BaiduNetdiskDownload\05-18_EasyUI\EasyUI\资料\apache-tomcat-easyui\webapps\ROOT
+九月 26, 2017 8:59:08 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+九月 26, 2017 8:59:08 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+九月 26, 2017 8:59:08 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 3915 ms

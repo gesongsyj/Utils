@@ -1,0 +1,25 @@
+$("#loginInfoDisplay").typeahead({
+			minLength:3,//最小autocomplate字符数
+			items:5,//下拉列表中最多显示条数
+			source:function(query,process){
+				$.ajax({
+					url:"vedioAuth_autocomplate.do",
+					type:"post",
+					dataType:"json",
+					data:{"name":$("#loginInfoDisplay").val()},
+					success:function(data){
+						if(data && data.length){
+							process(data);
+						}
+					}
+				});
+			},
+			displayText:function(item){
+				return item.username;
+			}
+		}).change(function(){
+			var current = $(this).typeahead("getActive");
+			if(current){
+				$("#loginInfoValue").val(current.id);
+			}
+		});

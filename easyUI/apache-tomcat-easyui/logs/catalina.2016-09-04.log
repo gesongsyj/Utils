@@ -1,0 +1,134 @@
+九月 04, 2016 8:34:49 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: H:\OpenSources\jdk1.7.0_79_x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;H:\OpenSources\jdk1.7.0_79_x64\bin;H:\OpenSources\apache-maven-3.2.5\bin;.
+九月 04, 2016 8:34:49 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 8:34:49 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 8:34:49 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 461 ms
+九月 04, 2016 8:34:49 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 04, 2016 8:34:49 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+九月 04, 2016 8:34:49 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\docs
+九月 04, 2016 8:34:50 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\easyui-docs
+九月 04, 2016 8:34:50 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\examples
+九月 04, 2016 8:34:50 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\host-manager
+九月 04, 2016 8:34:50 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\manager
+九月 04, 2016 8:34:50 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\ROOT
+九月 04, 2016 8:34:50 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 8:34:50 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 8:34:50 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 810 ms
+九月 04, 2016 8:35:06 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 8:35:06 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 8:35:06 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+九月 04, 2016 8:35:07 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 8:35:07 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 8:35:07 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 8:35:07 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 9:23:38 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: H:\OpenSources\jdk1.7.0_79_x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;H:\OpenSources\jdk1.7.0_79_x64\bin;H:\OpenSources\apache-maven-3.2.5\bin;.
+九月 04, 2016 9:23:38 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 9:23:38 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 9:23:38 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 397 ms
+九月 04, 2016 9:23:38 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 04, 2016 9:23:38 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+九月 04, 2016 9:23:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\docs
+九月 04, 2016 9:23:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\easyui-docs
+九月 04, 2016 9:23:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\examples
+九月 04, 2016 9:23:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\host-manager
+九月 04, 2016 9:23:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\manager
+九月 04, 2016 9:23:38 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\lanxw\EasyUI\资料\apache-tomcat-easyui\webapps\ROOT
+九月 04, 2016 9:23:39 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 9:23:39 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 9:23:39 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 833 ms
+九月 04, 2016 12:43:20 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\OpenSource\jdk1.7.0_79_x64\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%JAVA_HOME%;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\OpenSource\jdk1.7.0_79_x64\jdk1.7.0_79\bin;D:\OpenSource\apache-maven-3.2.5-bin\apache-maven-3.2.5\bin;.
+九月 04, 2016 12:43:20 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 12:43:20 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 12:43:20 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 724 ms
+九月 04, 2016 12:43:20 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 04, 2016 12:43:20 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+九月 04, 2016 12:43:20 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\docs
+九月 04, 2016 12:43:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\easyui-docs
+九月 04, 2016 12:43:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\examples
+九月 04, 2016 12:43:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\host-manager
+九月 04, 2016 12:43:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\manager
+九月 04, 2016 12:43:21 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\ROOT
+九月 04, 2016 12:43:21 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 12:43:21 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 12:43:21 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1485 ms
+九月 04, 2016 8:53:59 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\OpenSource\jdk1.7.0_79_x64\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%JAVA_HOME%;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\OpenSource\jdk1.7.0_79_x64\jdk1.7.0_79\bin;D:\OpenSource\apache-maven-3.2.5-bin\apache-maven-3.2.5\bin;.
+九月 04, 2016 8:53:59 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 8:53:59 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 8:53:59 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 641 ms
+九月 04, 2016 8:53:59 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 04, 2016 8:53:59 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+九月 04, 2016 8:53:59 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\docs
+九月 04, 2016 8:54:00 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\easyui-docs
+九月 04, 2016 8:54:00 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\examples
+九月 04, 2016 8:54:01 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\host-manager
+九月 04, 2016 8:54:01 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\manager
+九月 04, 2016 8:54:01 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\Linv999\Desktop\新建文件夹 (4)\EasyUI\资料\apache-tomcat-easyui\webapps\ROOT
+九月 04, 2016 8:54:01 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+九月 04, 2016 8:54:01 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+九月 04, 2016 8:54:01 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1554 ms

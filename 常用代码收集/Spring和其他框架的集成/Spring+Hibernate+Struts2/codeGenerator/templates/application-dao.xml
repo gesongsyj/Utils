@@ -1,0 +1,4 @@
+	<bean id="${objName}DAO" class="${basePkg}.dao.impl.${className}DAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+

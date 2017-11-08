@@ -1,0 +1,4 @@
+	<bean class="${basePkg}.mapper.${className}">
+		<property name="basePackage" value="${basePkg}.mapper"></property>
+	</bean>
+

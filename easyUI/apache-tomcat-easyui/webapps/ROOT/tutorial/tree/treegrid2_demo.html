@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="jquery,ui,easy,easyui,web">
+	<meta name="description" content="easyui help you build your web page easily!">
+	<title>Complex TreeGrid - jQuery EasyUI Demo</title>
+	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.com/easyui/demo/demo.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+</head>
+<body>
+	<h2>Complex TreeGrid Demo</h2>
+	<div class="demo-info" style="margin-bottom:10px">
+		<div class="demo-tip icon-tip">&nbsp;</div>
+		<div>Using TreeGrid to show complex reports.</div>
+	</div>
+	
+	<table title="Complex TreeGrid" class="easyui-treegrid" style="width:700px;height:250px"
+			url="data/treegrid2_data.json"
+			rownumbers="true" showFooter="true"
+			idField="id" treeField="region">
+		<thead frozen="true">
+			<tr>
+				<th field="region" width="200">Region</th>
+			</tr>
+		</thead>
+		<thead>
+			<tr>
+				<th colspan="4">2009</th>
+				<th colspan="4">2010</th>
+			</tr>
+			<tr>
+				<th field="f1" width="60" align="right">1st qrt.</th>
+				<th field="f2" width="60" align="right">2st qrt.</th>
+				<th field="f3" width="60" align="right">3st qrt.</th>
+				<th field="f4" width="60" align="right">4st qrt.</th>
+				<th field="f5" width="60" align="right">1st qrt.</th>
+				<th field="f6" width="60" align="right">2st qrt.</th>
+				<th field="f7" width="60" align="right">3st qrt.</th>
+				<th field="f8" width="60" align="right">4st qrt.</th>
+			</tr>
+		</thead>
+	</table>
+	
+</body>
+</html>

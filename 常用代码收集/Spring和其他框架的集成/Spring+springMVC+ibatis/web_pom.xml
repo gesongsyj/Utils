@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>basement</artifactId>
+		<groupId>com.syj.java</groupId>
+		<version>1.0.0</version>
+		<relativePath>../basement/pom.xml</relativePath>
+	</parent>
+	<groupId>com.syj.java</groupId>
+	<artifactId>web</artifactId>
+	<version>1.0.0</version>
+	<packaging>war</packaging>
+	<name>web</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.syj.java</groupId>
+			<artifactId>corer</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- 添加一个tomcat插件 -->
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<!-- tomcat启动的端口 -->
+					<port>8080</port>
+					<!-- 应用的上下文路径 -->
+					<path>/</path>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

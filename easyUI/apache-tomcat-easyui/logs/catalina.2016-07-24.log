@@ -1,0 +1,32 @@
+七月 24, 2016 8:17:27 上午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\lanxw\product\11.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;D:\software\maven\apache-maven-3.3.3\bin;D:\nginx\nginx-1.9.9;D:\java\apache-cxf-2.6.2\bin;C:\Program Files\Git\cmd;.
+七月 24, 2016 8:17:27 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+七月 24, 2016 8:17:27 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8019"]
+七月 24, 2016 8:17:27 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1128 ms
+七月 24, 2016 8:17:27 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+七月 24, 2016 8:17:27 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.47
+七月 24, 2016 8:17:27 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\新课件\EasyUI\资料\apache-tomcat-easyui\webapps\docs
+七月 24, 2016 8:17:28 上午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [130] milliseconds.
+七月 24, 2016 8:17:28 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\新课件\EasyUI\资料\apache-tomcat-easyui\webapps\easyui-docs
+七月 24, 2016 8:17:28 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\新课件\EasyUI\资料\apache-tomcat-easyui\webapps\examples
+七月 24, 2016 8:17:29 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\新课件\EasyUI\资料\apache-tomcat-easyui\webapps\host-manager
+七月 24, 2016 8:17:29 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\新课件\EasyUI\资料\apache-tomcat-easyui\webapps\manager
+七月 24, 2016 8:17:29 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\lanxw\Desktop\新课件\EasyUI\资料\apache-tomcat-easyui\webapps\ROOT
+七月 24, 2016 8:17:30 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+七月 24, 2016 8:17:30 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8019"]
+七月 24, 2016 8:17:30 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2484 ms

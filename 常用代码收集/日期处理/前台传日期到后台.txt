@@ -1,0 +1,12 @@
+//在Controller类中添加这个方法
+@InitBinder
+public void initBinder(WebDataBinder binder){
+	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	sdf.setLenient(false);
+	binder.registerCustomEditor(Date.class, new CustomDateEditor(sdf, true));
+}
+
+
+//直接在字段上添加
+@DateTimeFormat(pattern="yyyy-MM-dd")
+private Date beginDate;

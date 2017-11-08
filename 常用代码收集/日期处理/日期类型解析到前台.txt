@@ -1,0 +1,20 @@
+//在springmvc的配置文件中添加这个.annotation-driven在配置文件中值配置一次
+<mvc:annotation-driven>
+	<mvc:message-converters>
+		<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+			<property name="objectMapper">
+				<bean class="com.fasterxml.jackson.databind.ObjectMapper">
+					<property name="dateFormat">
+						<bean class="java.text.SimpleDateFormat">
+							<constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm:ss"/>
+						</bean>
+					</property>
+				</bean>
+			</property>
+		</bean>
+	</mvc:message-converters>
+</mvc:annotation-driven>
+
+//直接在字段上写上
+ @JsonFormat(pattern="yyyy-MM-dd",timezone="GMT-8")
+ private Date inputtime;

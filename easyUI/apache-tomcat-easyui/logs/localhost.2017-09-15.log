@@ -1,0 +1,42 @@
+九月 15, 2017 11:20:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+九月 15, 2017 11:20:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+九月 15, 2017 11:20:21 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7088daa7')
+九月 15, 2017 11:22:00 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+九月 15, 2017 11:22:00 上午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+九月 15, 2017 11:22:00 上午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@664beade')
+九月 15, 2017 12:02:26 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+九月 15, 2017 12:02:26 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+九月 15, 2017 12:02:26 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5a70073a')
+九月 15, 2017 12:02:42 下午 org.apache.catalina.core.StandardWrapperValve invoke
+严重: Servlet.service() for servlet [default] in context with path [] threw exception
+java.io.FileNotFoundException: D:\BaiduNetdiskDownload\05-18_EasyUI\EasyUI\资料\apache-tomcat-easyui\webapps\ROOT\demo (拒绝访问。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at cn.itcast.easyui.documentation.DocsDispatcherFilter.loadLocal(DocsDispatcherFilter.java:75)
+	at cn.itcast.easyui.documentation.DocsDispatcherFilter.doFilter(DocsDispatcherFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
