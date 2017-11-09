@@ -1,0 +1,16 @@
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		<!-- 是否在model中自动把session中的Attribute导入进去 -->
+		<property name="exposeSessionAttributes" value="true" />
+		<!-- 配置逻辑视图自动添加的后缀名 -->
+		<property name="suffix" value=".ftl" />
+		<!-- 配置视图解析器输出html的contentType -->
+		<property name="contentType" value="text/html;charset=UTF-8" />
+		<!-- freemarker的一些基本输出设置 -->
+		<property name="freemarkerSetting">
+			<value>
+				number_format=0.##
+				datetime_format=yyyy-MM-dd HH:mm:ss
+			</value>
+		</property>
+	</bean>
