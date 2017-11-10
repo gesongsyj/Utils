@@ -5,7 +5,7 @@ import java.util.Date;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.util.StringUtils;
 
-import ${basePkg}.utils.DateUtil;
+import ${basePkg}.utils.generator.DateUtil;
 
 import lombok.Getter;
 import lombok.Setter;

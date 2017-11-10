@@ -1,4 +1,4 @@
-package com.xmg.wms.generator;
+package com.xmg.pps.utils.generator;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -6,7 +6,9 @@ import java.io.IOException;
 import java.io.StringWriter;
 import java.text.MessageFormat;
 
-import com.xmg.wms.domain.Department;
+import com.xmg.pps.domain.Department;
+import com.xmg.pps.domain.Employee;
+
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -23,7 +25,7 @@ public class CodeGenerator {
 	}
 
 	public static void main(String[] args) throws Exception {
-		generatorCode();
+		//generatorCode();
 	}
 
 	/**
@@ -32,28 +34,37 @@ public class CodeGenerator {
 	 * @throws Exception
 	 */
 	public static void generatorCode() throws Exception {
-		ClassInfo classInfo = new ClassInfo(Department.class);
+		ClassInfo classInfo = new ClassInfo(Employee.class);
 		// 生成DAO
 		createFile(classInfo, "IDAO.java",
 				"src/main/java/{0}/dao/I{1}DAO.java");
 		// 生成DAOImpl
 		createFile(classInfo, "DAOImpl.java",
 				"src/main/java/{0}/dao/impl/{1}DAOImpl.java");
-		// 生成Service
+		/*		// 生成Service
 		createFile(classInfo, "IService.java",
 				"src/main/java/{0}/service/I{1}Service.java");
 		// 生成ServiceImpl
 		createFile(classInfo, "ServiceImpl.java",
 				"src/main/java/{0}/service/impl/{1}ServiceImpl.java");
+		// 生成Action
+		createFile(classInfo, "Action.java",
+				"src/main/java/{0}/web/action/{1}Action.java");
 		// 生成对应的QueryObject对象
 		createFile(classInfo, "ObjQueryObject.java",
 				"src/main/java/{0}/query/{1}QueryObject.java");
+		// 生成domain对应的hbm.xml文件
+		createFile(classInfo, "obj.hbm.xml",
+				"src/main/java/{0}/domain/{2}.hbm.xml");
 		// 添加dao的bean
 		appendFile(classInfo, "application-dao.xml",
-				"src/main/resources/applicationContext.xml");
+				"src/main/resources/applicationContext-daos.xml");
 		// 添加service的bean
 		appendFile(classInfo, "application-service.xml",
-				"src/main/resources/applicationContext.xml");
+				"src/main/resources/applicationContext-services.xml");
+		// 添加action的bean
+		appendFile(classInfo, "application-action.xml",
+				"src/main/resources/applicationContext-actions.xml");*/
 		System.out.println("生成完毕");
 	}
 
@@ -89,9 +100,9 @@ public class CodeGenerator {
 			String fileName) throws Exception {
 		// 获取模板对象
 		Template template = configuration.getTemplate(templateName);
-		// 设置{0}和{1}的值
+		// 设置{0},{1},{2}的值
 		fileName = MessageFormat.format(fileName, classInfo.getBasePkg()
-				.replace(".", "/"), classInfo.getClassName());
+				.replace(".", "/"), classInfo.getClassName(),classInfo.getObjName());
 		File file = new File(fileName);
 		if (!file.getParentFile().exists()) {
 			file.getParentFile().mkdirs();

@@ -1,4 +1,4 @@
-package com.xmg.wms.generator;
+package com.xmg.pps.utils.generator;
 
 import java.io.File;
 import java.io.FileWriter;

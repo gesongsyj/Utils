@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.xmg</groupId>
-	<artifactId>myWms</artifactId>
+	<artifactId>pps</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
-	<name>myWms</name>
+	<name>pps</name>
 
-	<properties>
+<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.springframework.version>4.0.0.RELEASE</org.springframework.version>
 		<hibernate.version>4.2.15.Final</hibernate.version>
@@ -178,20 +178,20 @@
 	<build>
 		<finalName>minipss</finalName>
 		<plugins>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<httpPort>8080</httpPort>
+					<port>8083</port>
 					<path>/</path>
 				</configuration>
 			</plugin>

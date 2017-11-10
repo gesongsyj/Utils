@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="  http://www.springframework.org/schema/beans           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="loginAction" class="com.xmg.pps.web.action.LoginAction"
+		scope="prototype">
+		<property name="employeeService" ref="employeeService" />
+	</bean>
+	<bean id="employeeAction" class="com.xmg.pps.web.action.EmployeeAction"
+		scope="prototype">
+		<property name="employeeService" ref="employeeService" />
+		<property name="departmentService" ref="departmentService" />
+	</bean>
+	<bean id="departmentAction" class="com.xmg.pps.web.action.DepartmentAction"
+		scope="prototype">
+		<property name="departmentService" ref="departmentService" />
+	</bean>
+</beans>

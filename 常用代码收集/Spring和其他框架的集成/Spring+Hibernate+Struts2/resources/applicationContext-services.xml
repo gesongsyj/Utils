@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="  http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employeeService" class="com.xmg.pps.service.impl.EmployeeServiceImpl">
+		<property name="employeeDAO" ref="employeeDAO" />
+	</bean>
+	<bean id="departmentService" class="com.xmg.pps.service.impl.DepartmentServiceImpl">
+		<property name="departmentDAO" ref="departmentDAO" />
+	</bean>
+</beans>

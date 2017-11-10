@@ -13,6 +13,11 @@
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
+	<!-- 每一次http请求都会通知该监听器 -->
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
 	<!-- OSIV模式 -->
 	<filter>
 		<filter-name>OSIV</filter-name>
@@ -29,6 +34,7 @@
 	</filter>
 	<filter-mapping>
 		<filter-name>struts2</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>*.action</url-pattern>
+		<url-pattern>*.jsp</url-pattern>
 	</filter-mapping>
 </web-app>
