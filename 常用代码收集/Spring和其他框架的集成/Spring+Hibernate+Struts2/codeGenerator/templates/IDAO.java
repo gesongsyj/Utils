@@ -1,11 +1,7 @@
 package ${basePkg}.dao;
 
-import java.util.List;
+import ${basePkg}.domain.${className};
 
-import com.xmg.pps.domain.${className};
-
-import ${basePkg}.query.${className}QueryObject;
-
-public interface I${className}DAO {
+public interface I${className}DAO extends IGenericDAO<${className}>{
 
 }
