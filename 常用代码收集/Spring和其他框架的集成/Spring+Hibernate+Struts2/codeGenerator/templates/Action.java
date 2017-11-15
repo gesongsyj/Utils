@@ -26,6 +26,7 @@ public class ${className}Action extends BaseAction{
 			${objName}=${objName}Service.get(${objName}.getId());
 			//${objName}.setDept(null);如果有关联关系的对象,需要设置为null打破关系
 		}
+		//role.getPermissions().clear();手动清除因为二次参数拦截器导致的参数重复的问题,或者将属性改为set也可避免该问题
 	}
 
 }
