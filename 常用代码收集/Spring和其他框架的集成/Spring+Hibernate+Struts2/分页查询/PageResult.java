@@ -1,4 +1,4 @@
-﻿package com.xmg.pps.query;
+package com.xmg.pps.query;
 import java.util.Collections;
 import java.util.List;
 

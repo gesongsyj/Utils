@@ -1,4 +1,4 @@
-﻿package com.xmg.wms.page;
+package com.xmg.wms.page;
 import java.util.Collections;
 import java.util.List;
 
