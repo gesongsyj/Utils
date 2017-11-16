@@ -121,5 +121,14 @@ public class GenericDAOImpl<T> implements IGenericDAO<T> {
 			query.setParameter(i, qo.getParams().get(i));
 		}
 	}
+	//批量删除
+	public void batchDelete(List<Long> ids) {
+		Session session = sessionFactory.getCurrentSession();
+		StringBuilder hql=new StringBuilder(80);
+		hql.append("delete from ").append(targetType.getSimpleName()).append(" obj where obj.id in (:ids)");//用in只能用名称占位符
+		Query query = session.createQuery(hql.toString());
+		query.setParameterList("ids", ids);
+		query.executeUpdate();
+	}
 
 }

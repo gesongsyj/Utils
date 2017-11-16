@@ -12,7 +12,16 @@ public interface IGenericDAO<T> {
 	T get(Long id);
 	List<T> listAll();
 	
-	//高级查询加分页
+	/**
+	 * 高级查询加分页
+	 * @param qo
+	 * @return
+	 */
 	int queryForCount(QueryObject qo);
 	List<T> query(QueryObject qo);
+	/**
+	 * 批量删除
+	 * @param ids
+	 */
+	void batchDelete(List<Long> ids);
 }

@@ -11,6 +11,9 @@
 		<property name="url" value="${jdbc.url}" />
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
+		<!-- druid数据库密码解密/监控SQl统计 -->
+		<property name="filters" value="config,stat" />
+		<property name="connectionProperties" value="config.decrypt=true"/>
 	</bean>
 
 	<!-- 配置sessionFactory -->
