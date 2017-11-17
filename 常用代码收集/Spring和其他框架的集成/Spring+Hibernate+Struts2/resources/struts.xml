@@ -8,20 +8,46 @@
 	<constant name="struts.devMode" value="true" />
 
 	<package name="default" namespace="/" extends="struts-default">
+		<interceptors>
+			<!-- 配置自定义拦截器 -->
+			<interceptor name="checkLogin" class="com.xmg.pps.web.interceptor.CheckLoginInterceptor"/>
+			<interceptor name="checkPermission" class="com.xmg.pps.web.interceptor.CheckPermissionInterceptor"></interceptor>
+			<!-- 自定义拦截器栈 -->
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="checkLogin"/>
+				<interceptor-ref name="checkPermission"/>
+				<!-- store拦截器,解决重定向之间需要共享数据的问题,注意跟workflow拦截器的前后问题 -->
+				<interceptor-ref name="store">
+					<param name="operationMode">AUTOMATIC</param>
+				</interceptor-ref>
+				<!-- 二次参数拦截器用于解决更新时密码丢失的问题.其中包含workflow拦截器,处理InputConfig标签 -->
+				<interceptor-ref name="paramsPrepareParamsStack"/>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="myStack"/>
 		<!-- 全局结果视图 -->
 		<global-results>
-			<result name="login">/login.jsp</result>
+			<result name="login" type="redirect">/login.jsp</result>
 			<result name="nopermission">/WEB-INF/views/common/nopermission.jsp</result>
 			<result name="error">/WEB-INF/views/common/error.jsp</result>
 		</global-results>
-	
+		<!-- 全局的错误处理,统一异常处理 -->
+		<global-exception-mappings>
+			<exception-mapping result="error" exception="java.lang.Exception"/>
+		</global-exception-mappings>
 		<!-- 此处class不是用的全限定名称,是因为Action已经交给Spring管理,Struts2只需要按照名字去Spring容器中拿就可以了 -->
 		<action name="login_*" class="loginAction" method="{1}">
-			<result name="main">/WEB-INF/views/main.jsp</result>
+			<!-- 登录操作不需要经过登录检查拦截器 -->
+			<interceptor-ref name="paramsPrepareParamsStack"/>
+			<result name="success" type="redirectAction">main</result>
+		</action>
+		<!-- 专门搞一个Action的映射,不需要类,不需要方法,只要一个结果视图,用来给登录操作重定向 -->
+		<action name="main">
+			<result>/WEB-INF/views/main.jsp</result>
 		</action>
 		<action name="*_*" class="{1}Action" method="{2}">
-			<result name="list">/WEB-INF/views/{1}/list.jsp</result>
 			<result name="input">/WEB-INF/views/{1}/input.jsp</result>
+			<result name="list">/WEB-INF/views/{1}/list.jsp</result>
 			<result name="success" type="redirectAction">{1}_list</result>
 		</action>
 	</package>
