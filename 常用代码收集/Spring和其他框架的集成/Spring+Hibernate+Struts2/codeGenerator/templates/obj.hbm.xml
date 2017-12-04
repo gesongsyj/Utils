@@ -4,17 +4,11 @@
 	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="${basePkg}.domain">
 	<class name="${className}" table="${objName}">
-		<#list propsName as prop>
-			<#if prop=="id">
-		        <id name="${prop}" column="${prop}">
-		            <generator class="native"/>
-		        </id>
-		    </#if>
-        </#list>
-		<#list propsName as prop>
-			<#if prop!="id">
-		        <property name="${prop}" column="${prop}"/>
-		    </#if>
+		<id name="${prop}" column="${prop}">
+		    <generator class="native"/>
+		</id>
+		<#list propsNameNoId as prop>
+			<property name="${prop}" column="${prop}"/>
         </#list>
 	</class>
 </hibernate-mapping>

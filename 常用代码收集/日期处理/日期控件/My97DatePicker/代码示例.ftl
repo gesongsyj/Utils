@@ -5,6 +5,7 @@
 		$(function(){
 			$('#bornDate').click(function(){
 				WdatePicker();
+				//WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'});//显示时分秒
 			});
 		});
 </script>

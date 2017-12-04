@@ -1,4 +1,4 @@
-package com.xmg.pps.utils.generator;
+package com.xmg.util.generator;
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;
@@ -18,20 +18,26 @@ public class ClassInfo {
 	private String basePkg;//基础包名
 	private String className;//简单类名
 	private String objName;//对象名称,即简单类名首字母小写
-	private String firstChar;//对象名称第一个字母的小写
+	private String lowerCaseName;//类名全小写
 	private List<String> propsName=new ArrayList<String>(); //当前对象中所有的属性名称
+	private List<String> propsNameNoId=new ArrayList<String>(); //当前对象中所有的属性名称除了id
 	
 	public ClassInfo(Class<?> clazz) throws Exception {
 		String pkgName=clazz.getPackage().getName();
 		basePkg=pkgName.substring(0, pkgName.lastIndexOf("."));
 		className=clazz.getSimpleName();
 		objName=className.substring(0, 1).toLowerCase()+className.substring(1);
-		firstChar=objName.substring(0, 1);
+		lowerCaseName=className.toLowerCase();
 		//使用内省机制获得属性名称
 		BeanInfo beanInfo = Introspector.getBeanInfo(clazz,Object.class);
 		PropertyDescriptor[] pds = beanInfo.getPropertyDescriptors();
 		for (PropertyDescriptor pd : pds) {
 			propsName.add(pd.getName());
+		}
+		for (PropertyDescriptor pd : pds) {
+			if(!pd.getName().equals("id")){
+				propsNameNoId.add(pd.getName());
+			}
 		}
 	}
 }
